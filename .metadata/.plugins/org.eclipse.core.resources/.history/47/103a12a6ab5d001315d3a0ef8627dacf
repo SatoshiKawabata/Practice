@@ -1,0 +1,93 @@
+package
+{
+	import flash.display.Graphics;
+	import flash.display.Sprite;
+	import flash.events.Event;
+	import flash.events.MouseEvent;
+	import flash.net.FileReference;
+	import flash.text.TextField;
+	import flash.utils.ByteArray;
+	
+	import mx.core.ButtonAsset;
+	
+	public class Compression extends Sprite
+	{
+		private var _file:FileReference;
+		
+		private var _compessBtn:Sprite;
+		private var _uncompessBtn:Sprite;
+		
+		public function Compression()
+		{
+			_file = new FileReference();
+			
+			// 圧縮ボタン
+			_compessBtn = createBtn('圧縮する', onSelectFile);
+			addChild(_compessBtn);
+			// 解凍ボタン
+			_uncompessBtn = createBtn('解凍する', onSelectFile);
+			_uncompessBtn.x = _compessBtn.x + _compessBtn.width + 10; 
+			addChild(_uncompessBtn);
+		}
+		
+		protected function onClickStage(event:MouseEvent):void
+		{
+			_file.addEventListener(Event.SELECT, onSelectFile);
+			_file.addEventListener(Event.COMPLETE, onCompleteFileLoad);
+			_file.browse();
+		}
+		
+		protected function onSelectFile(event:Event):void
+		{
+			_file.removeEventListener(Event.SELECT, onSelectFile);
+			_file.load();
+		}
+		
+		/**
+		 * ファイルロード完了ハンドラ 
+		 * @param event
+		 * 
+		 */		
+		protected function onCompleteFileLoad(event:Event):void
+		{
+			_file.removeEventListener(Event.COMPLETE, onCompleteFileLoad);
+			
+			var data:ByteArray = new ByteArray();
+			data.writeBytes(_file.data);
+			data.compress();
+			// 保存
+			_file.save(data, 'panel.dat');
+		}
+		
+		/**
+		 * ボタン生成 
+		 * @param label
+		 * @param handler
+		 * @return 
+		 * 
+		 */		
+		private function createBtn(label:String, handler:Function):Sprite
+		{
+			// テキストを設定
+			var tf:TextField = new TextField();
+			tf.text = label;
+			tf.textColor = 0xFFFFFF;
+			tf.backgroundColor = 0xaaaaaa;
+			// 色を指定
+			var btnElement:Sprite = new Sprite();
+			var g:Graphics = btnElement.graphics;
+			g.beginFill(0x000000);
+			g.drawRect(0, 0, tf.textWidth + 5, tf.textHeight + 5);
+			g.endFill();
+			// テキスト配置
+			tf.x = (btnElement.width - tf.textWidth) / 2.0;
+			tf.y = (btnElement.height - tf.textHeight) / 2.0;
+			btnElement.addChild(tf);
+			
+			// クリックイベントを作成
+			btnElement.addEventListener(MouseEvent.CLICK, handler);
+			
+			return btnElement;
+		}
+	}
+}

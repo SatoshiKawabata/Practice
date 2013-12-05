@@ -1,0 +1,9 @@
+package
+{
+	public class CompressionClass
+	{
+		public function CompressionClass()
+		{
+		}
+	}
+}

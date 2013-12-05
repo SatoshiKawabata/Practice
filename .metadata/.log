@@ -95,3 +95,218 @@ Binding(COMMAND+SHIFT+G,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2013-12-05 20:42:45.737 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_51
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=ja_JP
+Framework arguments:  -keyring /Users/A13201/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -data /Users/A13201/pigg-life/workspace-practice -keyring /Users/A13201/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.ui 2 0 2013-12-05 20:42:47.501
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-12-05 20:42:47.501
+!MESSAGE Commands should really have a category: plug-in='com.qnx.flashbuilder.multiplatform.qnx.ui', id='com.qnx.flashbuilder.multiplatform.qnx.ui.commands.OpenInfoCenter', categoryId='com.qnx.flashbuilder.multiplatform.qnx.ui.commands.category.help'
+
+!ENTRY org.eclipse.core.net 1 0 2013-12-05 20:42:48.918
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.adobe.flexbuilder.ui 4 1 2013-12-05 20:42:54.691
+!MESSAGE Product = null version = 460 edition = prem
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-12-05 20:43:07.808
+!MESSAGE http://aesplugins.adobe.com/aes/tooling/plugin/10.0 のレポジトリが見つかりません。
+
+!ENTRY org.eclipse.jface 2 0 2013-12-05 20:46:43.234
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-12-05 20:46:43.234
+!MESSAGE A conflict occurred for COMMAND+SHIFT+F12:
+Binding(COMMAND+SHIFT+F12,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.searchForTask,Search Repository for Task,
+		,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.mylyn.internal.tasks.ui.search.SearchTaskHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+F12,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.flashbridge.export.publish.movie,ムービーをパブリッシュ,
+		Flash Professional でパブリッシュ,
+		Category(com.adobe.flexbuilder.flashbridge.flashProCommands,Flash Professional,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.jface 2 0 2013-12-05 20:46:45.874
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-12-05 20:46:45.874
+!MESSAGE A conflict occurred for COMMAND+G:
+Binding(COMMAND+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,ワークスペース内のすべての宣言を検索,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,ナビゲーション,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@dbd887)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(COMMAND+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.declarations.in.workspace,ワークスペース内のすべての宣言を検索,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,ナビゲーション,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllDeclarationsAction@dbd887)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+Binding(COMMAND+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace,ワークスペース内の宣言,
+		ワークスペース内の選択された要素の宣言を検索します,
+		Category(org.eclipse.search.ui.category.search,検索,コマンド・カテゴリーを検索します,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-12-05 20:46:45.874
+!MESSAGE A conflict occurred for COMMAND+SHIFT+G:
+Binding(COMMAND+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,ワークスペース内のすべての参照を検索,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,ナビゲーション,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@164b39d)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexide.editorcore.flexEditorScope,,,system)
+Binding(COMMAND+SHIFT+G,
+	ParameterizedCommand(Command(com.adobe.flexbuilder.as.editor.find.all.references.in.workspace,ワークスペース内のすべての参照を検索,
+		,
+		Category(com.adobe.flexbuilder.editorcore.navigation.category,ナビゲーション,null,true),
+		LegacyHandlerWrapper(ActionHandler(action=com.adobe.flexbuilder.as.editor.ui.actions.FindAllReferencesAction@164b39d)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.adobe.flexbuilder.as.editor.context.packageexplorer,,,system)
+Binding(COMMAND+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.references.in.workspace,ワークスペース内の参照,
+		ワークスペース内の選択された要素の参照を検索します,
+		Category(org.eclipse.search.ui.category.search,検索,コマンド・カテゴリーを検索します,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.adobe.flexbuilder.project 4 43 2013-12-05 21:56:27.175
+!MESSAGE Error getting breakpoint text
+!STACK 1
+org.eclipse.debug.core.DebugException: ブレークポイントにはマーカーが関連付けられていません。
+	at org.eclipse.debug.core.model.Breakpoint.ensureMarker(Breakpoint.java:268)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexBreakpoint.getHitCount(FlexBreakpoint.java:263)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexLineBreakpoint.getTextWithoutStatus(FlexLineBreakpoint.java:374)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexBreakpoint.getText(FlexBreakpoint.java:243)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexLineBreakpoint.getMessage(FlexLineBreakpoint.java:245)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexBreakpoint.updateMessageAttribute(FlexBreakpoint.java:191)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexBreakpoint.changeInstantiationStatusCount(FlexBreakpoint.java:142)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexBreakpoint.removeInstantiationStatus(FlexBreakpoint.java:114)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexBreakpointMap.clearBreakpointLocations(FlexBreakpointMap.java:122)
+	at com.adobe.flexbuilder.debug.breakpoints.FlexLineBreakpoint.uninstantiate(FlexLineBreakpoint.java:557)
+	at com.adobe.flexbuilder.debug.model.FlexDebugTarget.uninstantiateBreakpoint(FlexDebugTarget.java:1194)
+	at com.adobe.flexbuilder.debug.model.FlexDebugTarget.access$15(FlexDebugTarget.java:1191)
+	at com.adobe.flexbuilder.debug.model.FlexDebugTarget$2.run(FlexDebugTarget.java:1232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2013-12-05 21:56:27.176
+!MESSAGE ブレークポイントにはマーカーが関連付けられていません。
+
+!ENTRY org.eclipse.ui 4 0 2013-12-05 22:30:17.742
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: org.eclipse.ui.internal.ide.dialogs.ResourceInfoPage cannot be cast to com.adobe.flexbuilder.project.ui.properties.BuildPathsPropertyPage
+	at com.adobe.flexbuilder.as.editor.ui.packageexplorer.content.AbstractFlexPackageExplorerLibraryPathChild.getPropertyDialog(AbstractFlexPackageExplorerLibraryPathChild.java:128)
+	at com.adobe.flexbuilder.editors.derived.ui.navigator.FlexPackageExplorerPropertyDialogAction.createDialog(FlexPackageExplorerPropertyDialogAction.java:64)
+	at com.adobe.flexbuilder.editors.derived.ui.navigator.FlexPackageExplorerPropertyDialogAction.run(FlexPackageExplorerPropertyDialogAction.java:39)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4128)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1457)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1480)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1465)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1270)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3974)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3613)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.adobe.flexbuilder.standalone.FlashBuilderApplication.start(FlashBuilderApplication.java:108)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui 4 0 2013-12-05 22:30:21.748
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: org.eclipse.ui.internal.ide.dialogs.ResourceInfoPage cannot be cast to com.adobe.flexbuilder.project.ui.properties.BuildPathsPropertyPage
+	at com.adobe.flexbuilder.as.editor.ui.packageexplorer.content.AbstractFlexPackageExplorerLibraryPathChild.getPropertyDialog(AbstractFlexPackageExplorerLibraryPathChild.java:128)
+	at com.adobe.flexbuilder.editors.derived.ui.navigator.FlexPackageExplorerPropertyDialogAction.createDialog(FlexPackageExplorerPropertyDialogAction.java:64)
+	at com.adobe.flexbuilder.editors.derived.ui.navigator.FlexPackageExplorerPropertyDialogAction.run(FlexPackageExplorerPropertyDialogAction.java:39)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4128)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1457)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1480)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1465)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1270)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3974)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3613)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.adobe.flexbuilder.standalone.FlashBuilderApplication.start(FlashBuilderApplication.java:108)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY com.adobe.flexbuilder.project 4 43 2013-12-05 23:12:39.463
+!MESSAGE Device is disposed
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1065)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4610)
+	at com.adobe.flash.profiler.util.Calculation.done(Calculation.java:140)
+	at org.eclipse.core.internal.jobs.JobListeners$3.notify(JobListeners.java:39)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:112)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:152)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:647)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
