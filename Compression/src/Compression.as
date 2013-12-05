@@ -1,5 +1,6 @@
 package
 {
+	
 	import flash.display.Graphics;
 	import flash.display.Sprite;
 	import flash.events.Event;
@@ -77,17 +78,18 @@ package
 			data.writeBytes(_file.data);
 			if (_compressFlag)
 			{
-				data.compress('lzma');
-				trace('圧縮する');
+				data.compress(CompressionAlgorithm.LZMA);
+				trace('圧縮する', CompressionAlgorithm.LZMA);
 			}
 			else if(!_compressFlag)
 			{
-				data.uncompress('lzma');
-				trace('解凍する');
+				data.uncompress(CompressionAlgorithm.LZMA);
+				trace('解凍する', CompressionAlgorithm.LZMA);
+				
 			}
 			// 保存
 			_file.save(data, 'panel.dat');
-			_messageArea.text = 'lzma形式で保存しました';
+			_messageArea.text = 'lzma形式で保存しました' + CompressionAlgorithm.LZMA;
 		}
 		
 		/**
