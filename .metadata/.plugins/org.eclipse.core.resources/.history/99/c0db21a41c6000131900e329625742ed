@@ -1,0 +1,27 @@
+package
+{
+	import flash.display.Sprite;
+	import flash.display.StageAlign;
+	import flash.display.StageScaleMode;
+	
+	import model.ClockData;
+	
+	/**
+	 * クロックのテストコード 
+	 * @author kawabatasatoshi
+	 * 
+	 */	
+	public class MVCClock extends Sprite
+	{
+		private var _clockData:ClockData;
+		
+		
+		public function MVCClock()
+		{
+			stage.align = StageAlign.TOP_LEFT;
+			stage.scaleMode = StageScaleMode.NO_SCALE;
+			
+			_clockData = new ClockData();
+		}
+	}
+}

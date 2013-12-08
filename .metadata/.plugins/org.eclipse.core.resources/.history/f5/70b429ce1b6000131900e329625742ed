@@ -1,0 +1,64 @@
+package view
+{
+	import flash.display.Graphics;
+	import flash.display.Sprite;
+	import flash.events.Event;
+	
+	
+	import model.ClockData;
+	
+	public class AnalogClockView extends BaseClockView
+	{
+		//=========================================================
+		// VARIABLES
+		//=========================================================
+		private var _face:Sprite;
+		private var _hourHand:Sprite;
+		private var _minuteHand:Sprite;
+		private var _secondHand:Sprite;
+		
+		//=========================================================
+		// PUBLIC METHODS
+		//=========================================================
+		/**
+		 * constructor 
+		 * @param data
+		 * 
+		 */		
+		public function AnalogClockView(data:ClockData)
+		{
+			super(data);
+			
+			// 文字盤と円を描く
+			_face = new Sprite();
+			var g:Graphics = _face.graphics;
+			g.lineStyle(0, 0x000000, 1);
+			g.drawCircle(0,0, 100);
+			this.addChild(_face);
+			
+			// 針を描く
+			_hourHand = new Sprite();
+			var g:Graphics = _hourHand.graphics;
+			g.lineStyle(5, 0x000000, 1);
+			g.lineTo(0, -50);
+			this.addChild(_hourHand);
+			_minuteHand = new Sprite();
+			var g:Graphics = _hourHand.graphics;
+			g.lineStyle(2, 0x000000, 1);
+			g.lineTo(0, -50);
+			this.addChild(_minuteHand);
+			_secondHand = new Sprite();
+			var g:Graphics = _hourHand.graphics;
+			g.lineStyle(0, 0x000000, 1);
+			g.lineTo(0, -50);
+			this.addChild(_secondHand);
+			
+			// 描画
+			draw();
+		}
+		
+		override protected function draw(event:Event):void
+		{
+		
+	}
+}

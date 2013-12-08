@@ -1,0 +1,12 @@
+package view
+{
+	import model.ClockData;
+	
+	public class AnalogClockView extends AbstractClockView
+	{
+		public function AnalogClockView(data:ClockData)
+		{
+			super(data);
+		}
+	}
+}

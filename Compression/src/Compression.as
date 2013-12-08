@@ -90,6 +90,7 @@ package
 			// 保存
 			_file.save(data, 'panel.dat');
 			_messageArea.text = 'lzma形式で保存しました' + CompressionAlgorithm.LZMA;
+			
 		}
 		
 		/**

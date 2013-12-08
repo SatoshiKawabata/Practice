@@ -1,0 +1,12 @@
+package view
+{
+	import flash.display.Sprite;
+	
+	public class AbstractClockView extends Sprite
+	{
+		public function AbstractClockView()
+		{
+			super();
+		}
+	}
+}

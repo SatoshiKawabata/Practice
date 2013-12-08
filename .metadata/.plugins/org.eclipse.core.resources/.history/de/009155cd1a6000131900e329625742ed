@@ -1,0 +1,40 @@
+package view
+{
+	import flash.display.Sprite;
+	import flash.events.Event;
+	
+	import model.ClockData;
+	
+	public class AbstractClockView extends Sprite
+	{
+		//=========================================================
+		// VARIABLES
+		//=========================================================
+		protected var _data:ClockData;
+		
+		//=========================================================
+		// PUBLIC METHODS
+		//=========================================================
+		/**
+		 * constructor 
+		 * @param data
+		 * 
+		 */		
+		public function AbstractClockView(data:ClockData)
+		{
+			super();
+			_data = data;
+			_data.addEventListener(Event.CHANGE, draw);
+		}
+		
+		/**
+		 * draw 
+		 * @param event
+		 * 
+		 */		
+		protected function draw(event:Event):void
+		{
+			
+		}
+	}
+}

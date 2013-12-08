@@ -1,0 +1,13 @@
+package data
+{
+	import flash.events.EventDispatcher;
+	import flash.events.IEventDispatcher;
+	
+	public class ClockData extends EventDispatcher
+	{
+		public function ClockData(target:IEventDispatcher=null)
+		{
+			super(target);
+		}
+	}
+}

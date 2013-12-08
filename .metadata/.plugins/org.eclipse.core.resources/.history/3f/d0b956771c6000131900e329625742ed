@@ -1,0 +1,17 @@
+package
+{
+	import flash.display.Sprite;
+	
+	/**
+	 * クロックのテストコード 
+	 * @author kawabatasatoshi
+	 * 
+	 */	
+	public class MVCClock extends Sprite
+	{
+		public function MVCClock()
+		{
+			
+		}
+	}
+}
