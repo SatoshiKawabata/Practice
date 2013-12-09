@@ -1,0 +1,21 @@
+package view
+{
+	import flash.display.Sprite;
+	import flash.text.TextField;
+	
+	import model.ClockData;
+	
+	public class DigitalClockView extends BaseClockView
+	{
+		//=========================================================
+		// VARIABLES
+		//=========================================================
+		private var _frame:Sprite;
+		private var _display:TextField;
+		
+		public function DigitalClockView(data:ClockData)
+		{
+			super(data);
+		}
+	}
+}

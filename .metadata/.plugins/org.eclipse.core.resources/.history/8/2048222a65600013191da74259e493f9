@@ -1,0 +1,12 @@
+package view
+{
+	import model.ClockData;
+	
+	public class DigitalClockView extends BaseClockView
+	{
+		public function DigitalClockView(data:ClockData)
+		{
+			super(data);
+		}
+	}
+}
