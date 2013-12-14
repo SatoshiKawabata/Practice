@@ -1,0 +1,22 @@
+package factory
+{
+	/**
+	 *  テンプレートメソッド抽象クラス
+	 * 
+	 */	
+	public class BaseGame
+	{
+		public function BaseGame()
+		{
+		}
+		
+		public function initialize():void
+		{
+		}
+		
+		public function createField():IField
+		{
+			throw new Error('createField:Abstract Methd!');
+		}
+	}
+}

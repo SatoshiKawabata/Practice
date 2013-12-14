@@ -1,0 +1,10 @@
+package factory
+{
+	public class FootBallGame extends BaseGame
+	{
+		public function FootBallGame()
+		{
+			super();
+		}
+	}
+}

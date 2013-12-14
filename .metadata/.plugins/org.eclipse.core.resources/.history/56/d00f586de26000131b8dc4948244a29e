@@ -1,0 +1,20 @@
+package factory
+{
+	public class FootballGame extends BaseGame
+	{
+		public function FootballGame()
+		{
+			super();
+		}
+		
+		public function initialize():void
+		{
+			var field:IField = createField();
+		}
+		
+		override public function createField():void
+		{
+			trace('Start Football!');
+		}
+	}
+}

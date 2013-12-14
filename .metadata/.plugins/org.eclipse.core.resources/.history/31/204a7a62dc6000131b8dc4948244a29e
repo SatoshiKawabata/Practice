@@ -1,0 +1,27 @@
+package
+{
+	/**
+	 *  シングルトンパターンクラス
+	 * 
+	 */	
+	public class SingletonClass
+	{
+		// privateでstaticな変数
+		private static var _instance:SingletonClass;
+		
+		/**
+		 * constructor 
+		 * 
+		 */		
+		public function SingletonClass(enforcer:SingletonEnforcer)
+		{
+		}
+		
+		public function getInstance():SingletonClass
+		{
+			
+		}
+	}
+	
+	class SingletonEnforcer {}
+}

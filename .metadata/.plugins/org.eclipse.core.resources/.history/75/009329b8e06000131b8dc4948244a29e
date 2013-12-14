@@ -1,0 +1,13 @@
+package factory
+{
+	public class FootballField implements IField
+	{
+		public function FootballField()
+		{
+		}
+		
+		public function drawFieald():void
+		{
+		}
+	}
+}

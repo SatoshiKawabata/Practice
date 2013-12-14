@@ -1,0 +1,8 @@
+package factory
+{
+	public interface IField
+	{
+		// 「フィールドを描く」というメソッドを定義
+		function drawField():void;
+	}
+}

@@ -1,0 +1,9 @@
+package factory
+{
+	public class BaseGame
+	{
+		public function BaseGame()
+		{
+		}
+	}
+}

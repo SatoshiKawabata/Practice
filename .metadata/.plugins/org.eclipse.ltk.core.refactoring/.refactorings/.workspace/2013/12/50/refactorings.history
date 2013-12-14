@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="リソース名を &apos;TemplateMethodFactoryPattern&apos; から &apos;FactoryPattern&apos; に変更します" description="リソース &apos;TemplateMethodFactoryPattern&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/TemplateMethodFactoryPattern" name="FactoryPattern" stamp="1386600093660" updateReferences="true"/>
+</session>

@@ -1,0 +1,9 @@
+package
+{
+	public class SingletonClass
+	{
+		public function SingletonClass()
+		{
+		}
+	}
+}

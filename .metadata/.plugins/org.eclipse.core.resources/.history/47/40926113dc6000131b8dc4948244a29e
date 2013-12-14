@@ -1,0 +1,13 @@
+package
+{
+	/**
+	 *  シングルトンパターンクラス
+	 * 
+	 */	
+	public class SingletonClass
+	{
+		public function SingletonClass()
+		{
+		}
+	}
+}

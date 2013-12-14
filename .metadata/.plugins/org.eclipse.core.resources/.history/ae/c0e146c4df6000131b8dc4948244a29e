@@ -1,0 +1,15 @@
+package factory
+{
+	public class BaseGame
+	{
+		public function BaseGame()
+		{
+		}
+		
+		public function initialize():void
+		{
+			
+		}
+			
+	}
+}

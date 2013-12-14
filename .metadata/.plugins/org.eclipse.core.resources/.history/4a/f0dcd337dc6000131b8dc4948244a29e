@@ -1,0 +1,15 @@
+package
+{
+	/**
+	 *  シングルトンパターンクラス
+	 * 
+	 */	
+	public class SingletonClass
+	{
+		// privateでstaticな変数
+		private static var _instance:SingletonClass;
+		public function SingletonClass()
+		{
+		}
+	}
+}

@@ -1,0 +1,35 @@
+package factory
+{
+	/**
+	 *  テンプレートメソッド抽象クラス
+	 * 
+	 */	
+	public class BaseGame
+	{
+		public function BaseGame()
+		{
+		}
+		
+		public function initialize():void
+		{
+			
+		}
+		
+		public function createField():void
+		{
+			throw new Error('createField:Abstract Methd!');
+		}
+		
+		public function createTeam(name:String):void
+		{
+			throw new Error('createTeam:Abstract Methd!');
+		}
+		
+		public function startGame():void
+		{
+			throw new Error('startGame:Abstract Methd!');	
+		}
+		
+		
+	}
+}
